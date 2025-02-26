@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   css: ["@/assets/main.css"],
+
   app: {
     head: {
       title: "Minha Aplicação",
@@ -8,4 +9,6 @@ export default defineNuxtConfig({
       ],
     },
   },
+
+  compatibilityDate: "2025-02-25",
 });
